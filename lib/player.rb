@@ -56,8 +56,9 @@ class Player
   end
 
   def card_value_sum
-  @card_values.reduce(:+)
+    @card_values.reduce(:+)
   end
+
   def check_cards
     if self.card_value_sum == 21
        puts "    === 21 ==="

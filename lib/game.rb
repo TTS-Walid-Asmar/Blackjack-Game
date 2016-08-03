@@ -145,8 +145,6 @@ class Game
   end
 
   def end_game
-
-
      puts " "
      puts "               Show Results               "
      gets.chomp
